@@ -1,7 +1,7 @@
 # Tyson Spoelma
 # MTH 325
 # Homework 3
-# Problem 3
+# Problem 2
 
 # This program prints out the function H(n)
 # where H(n) = n/2 when n is even
