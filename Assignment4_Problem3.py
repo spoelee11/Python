@@ -48,21 +48,23 @@ def is_symmetric(dictionary):
                 if (key in dictionary[target]):
                     if(key == target):
                         continue
-                    else:
-                        return True
+                else:
+                    return False
             except KeyError:
                 # there is no key in the dictionary that is the same as
                 # the element in the target's list.
-                continue
+                return False
 
     # if there is no symmetric relation seen yet, then the dictionary is
     # not symmetric, so return false.
-    return False
+    return True
 
 dictionary1 = {1:[2],2:[3],3:[5,6]}
 dictionary2 = {1:[2],2:[3,1],3:[5,6]}
+dictionary3 = {1:[2,3],2:[3,1],3:[2]}
 print 'Is the dictionary1 symmectric?: ',is_symmetric(dictionary1)
 print 'Is the dictionary2 symmectric?: ',is_symmetric(dictionary2)
+print 'Is the dictionary3 symmectric?: ',is_symmetric(dictionary3)
 
 #%md
 #Problem 3-Bonus
