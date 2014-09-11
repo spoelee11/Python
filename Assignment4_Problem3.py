@@ -1,3 +1,5 @@
+# Works with Python 2.7
+
 #%md
 #Problem 3a
 #Write a funtion called "is_reflexive" that takes in a dictionary as input (that represents a relation) and returns True if the relation is reflexive and False otherwise.
